@@ -18,18 +18,18 @@
       tileAttribution = 'Map data: <a href="http://openstreetmap.org">OSM</a>',
 
       osm = L.tileLayer(
-        'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
         {attribution: 'Basemap: <a href="http://openstreetmap.org">OSM</a>',  maxZoom: 17}
       ),
 
 //Untuk minimap (inset), karena kalau sama akan membingungkan dua kontrol peta
       osm2 = L.tileLayer(
-        'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
         {attribution: 'Basemap: <a href="http://openstreetmap.org">OSM</a>',  maxZoom: 17}
       ),
 
       greyscale   = L.tileLayer(
-        'http://{s}.www.toolserver.org/tiles/bw-mapnik/{z}/{x}/{y}.png',
+        'https://{s}.www.toolserver.org/tiles/bw-mapnik/{z}/{x}/{y}.png',
         {attribution: 'Basemap: <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',  maxZoom: 17}
       ),
       esriimagery = L.tileLayer(

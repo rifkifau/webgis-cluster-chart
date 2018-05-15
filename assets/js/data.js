@@ -28,9 +28,9 @@
         {attribution: 'Basemap: <a href="http://openstreetmap.org">OSM</a>',  maxZoom: 17}
       ),
 
-      greyscale   = L.tileLayer(
-        'https://{s}.www.toolserver.org/tiles/bw-mapnik/{z}/{x}/{y}.png',
-        {attribution: 'Basemap: <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',  maxZoom: 17}
+      topomap   = L.tileLayer(
+        'https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}',
+        {attribution: 'Basemap: Esri &mdash; Esri, DeLorme, NAVTEQ, TomTom, Intermap, iPC, USGS, FAO, NPS, NRCAN, GeoBase, Kadaster NL, Ordnance Survey, Esri Japan, METI, Esri China (Hong Kong), and the GIS User Community',  maxZoom: 17}
       ),
       esriimagery = L.tileLayer(
         'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
@@ -42,7 +42,7 @@
       ),
       baseLayers = {
     		"OpenStreetMap": osm,
-    		"OSM Black & White": greyscale,
+    		"ESRI World TopoMap": topomap,
         "ESRI World Imagery": esriimagery,
         "ESRI NatGeo World Map": natgeo
       },

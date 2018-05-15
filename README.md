@@ -2,4 +2,4 @@
 WebGIS dengan data spasial yang banyak dan kompleks
 
 # Demo
-[WebGIS](webgis-cluster-chart)
+[WebGIS](https://rifkifau.github.io/webgis-cluster-chart)

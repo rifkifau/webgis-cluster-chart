@@ -141,7 +141,7 @@ function defineClusterIcon(cluster) {
                             pieLabel: n,
                             pieLabelClass: 'marker-cluster-pie-label',
                             pathClassFunc: function(d){return "category-"+d.data.key;},
-                            pathTitleFunc: function(d){return metadata.fields[categoryField].lookup[d.data.key]+' ('+d.data.values.length+' accident'+(d.data.values.length!=1?'s':'')+')';}
+                            pathTitleFunc: function(d){return metadata.fields[categoryField].lookup[d.data.key]+' ('+d.data.values.length+' sekolah'+(d.data.values.length!=1?'s':'')+')';}
                           }),
         //Create a new divIcon and assign the svg markup to the html property
         myIcon = new L.DivIcon({
